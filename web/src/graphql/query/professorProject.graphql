@@ -1,0 +1,16 @@
+query ProfessorProjects($professor: String!){
+  professorProjects (professor: $professor) {
+    title
+    fypgroup{
+      name
+      unavailability
+    }
+    superviser{
+      name
+    }
+    secondExaminer{
+      name
+    }
+    schedule
+  }
+}

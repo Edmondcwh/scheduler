@@ -1,0 +1,9 @@
+mutation updateGroupUnavailability($unavailability: [String!]!){
+  updateGroupUnavailability (unavailability: $unavailability) {
+   errors 
+    groupname{
+      unavailability
+      name
+    }
+  }
+}

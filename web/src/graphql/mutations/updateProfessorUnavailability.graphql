@@ -1,0 +1,9 @@
+mutation updateProfessorUnavailability ($unavailability: [String!]!){
+  updateProfessorUnavailability(unavailability: $unavailability) {
+    errors
+  	professor {
+      name
+      unavailability
+    }
+  }
+}

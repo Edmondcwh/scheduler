@@ -1,0 +1,5 @@
+mutation updateSchedule($schedule:[String!]!){
+  updateSchedule(schedule: $schedule) {
+    message
+  }
+}

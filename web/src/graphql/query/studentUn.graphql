@@ -1,0 +1,8 @@
+query studentUn {
+  studentInfo {
+    groupname {
+      name
+      unavailability
+    }
+  }
+}

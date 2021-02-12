@@ -1,0 +1,22 @@
+mutation createProject ($groupname: String!, $supervisor: String!, $secondExaminer: String!, $title: String!){
+  createProjects (options: {groupname:$groupname, supervisor: $supervisor,
+    secondExaminer: $secondExaminer, title: $title}) {
+    errors {
+      field
+      message
+    }
+    project {
+      fypgroup{
+        name
+      }
+      
+      title
+      superviser {
+        name
+      }
+      secondExaminer {
+        name
+      }
+    }
+  }
+}

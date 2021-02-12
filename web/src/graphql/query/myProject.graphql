@@ -1,0 +1,18 @@
+query MyProject($groupname: String!){
+  myProject(groupname:$groupname) {
+    
+    project {
+      title
+      fypgroup{
+        name
+      }
+      superviser {
+        name
+      }
+      secondExaminer {
+        name
+      }
+      schedule
+    }
+  }
+}

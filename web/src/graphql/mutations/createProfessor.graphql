@@ -1,0 +1,8 @@
+mutation createProfessor($professorName: String!){
+  createProfessor(professorName: $professorName) {
+    professor {
+      name
+    }
+    errors
+  }
+}

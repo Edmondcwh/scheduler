@@ -1,0 +1,18 @@
+query allProjects{
+  allProjects {
+    fypgroup{
+      name
+      unavailability
+    }
+    title
+    superviser {
+      name
+      unavailability
+    }
+    secondExaminer {
+      name
+      unavailability
+    }
+    schedule
+  }
+}

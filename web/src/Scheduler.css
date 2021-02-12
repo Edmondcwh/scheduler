@@ -1,0 +1,130 @@
+
+.container {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar-container {
+    height:100px;
+    width: 90%;
+}
+
+.navbar {
+    margin-left: 5%;    
+    width:100%;
+    height: 100px;
+    position: relative;
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+
+.calender-information-container{
+    height:95%;
+    width:100;
+    display: flex;
+    flex-direction: row;
+}
+
+.calender {
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 70%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+}
+
+.information {
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 18%;
+    height: 100%;
+    position: relative;
+}
+
+#dayList{
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0pt
+}
+
+.day {
+    width:100%;
+    float: left;
+    height:35px;
+    border-left: 1px solid rgb(51, 50, 50);
+    border-right: 1px solid rgb(51, 50, 50);
+    border-bottom: 1px solid rgb(51, 50, 50);
+    background-color: transparent;
+
+}
+
+.timeIndex {
+    list-style-type: none;
+    width:15%;
+    
+}
+
+.date {
+    border-left: 1px solid rgb(51, 50, 50);
+    
+    border-bottom: 1px solid rgb(51, 50, 50);
+    width:100%;
+    height:35px;
+
+}
+
+p{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.time {
+    width:100%;
+    float: left;
+    width:100%;
+    height:35px;
+    border-left: 1px solid rgb(51, 50, 50);
+    border-bottom: 1px solid rgb(51, 50, 50);
+}
+
+.dayList .ui-selecting {background: #FECA40;}
+.dayList .ui-selected { background: #F39814; color: transparent; }
+
+.card-label {
+    font-size:1px;
+}
+
+
+.selectable-container{
+    height:100%;
+    width:15%;
+}
+
+.list-container{
+    height:100;
+    width:100%;
+}
+
+.selectedDateDiv {
+    background: transparent;
+}
+
+.dateDiv{
+    background: #F39814;
+}
+
+.unavailable-time-slot-container {
+    height:550px;
+    
+}
+.unavailable-time {
+    height: 40%
+}
+.information-spacer{
+    height:20%;
+}

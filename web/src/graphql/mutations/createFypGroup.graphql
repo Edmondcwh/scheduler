@@ -1,0 +1,8 @@
+mutation createFypGroup($fypgroupname: String!){
+  createFypGroup (fypgroupname: $fypgroupname) {
+    errors
+    groupname {
+        name
+    }
+  }
+}
